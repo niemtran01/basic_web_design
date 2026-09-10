@@ -2,6 +2,7 @@ tr.header {
     /* background-color: #4CAF50; */
     color: blue;
 }
+/* để bảng trái là margin-left */
 table{
     margin: 10px auto;
     font-size: 14px;
@@ -9,10 +10,15 @@ table{
 
 h3{
     font-size: 25px;
+    color: green;
 }
 
 .row:hover {
     color: white;
     background-color: pink  ;
 
+}
+
+img{
+    border-radius: 50%;
 }
