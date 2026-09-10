@@ -1,0 +1,18 @@
+tr.header {
+    /* background-color: #4CAF50; */
+    color: blue;
+}
+table{
+    margin: 10px auto;
+    font-size: 14px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.row:hover {
+    color: white;
+    background-color: pink  ;
+
+}
