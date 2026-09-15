@@ -1,0 +1,97 @@
+nav{
+    /* text-align: left;
+    padding: 90px;
+    margin-left: 10px;
+    display: flex; */
+
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: white;
+
+    padding:  20px;
+
+    border-bottom: 1px solid #869790;
+}
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+
+    color: #555;
+
+    font-size: 14px;
+
+    margin-right: 25px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.active {
+    color: red;
+
+    border-bottom: 2px solid red;
+
+    padding-bottom: 10px;
+}
+
+.cards img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    /* ảnh tự phóng to or thu nhỏ để vừa khung, contain sẽ bị thiếu 2 góc trên or dưới */
+    border-radius: 10px;
+}
+
+.cards-list {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.cards {
+    width: 250px;
+    background-color: white;
+    border: 1px solid #b29090;
+    overflow: hidden;
+}
+
+.cards h1 {
+    font-size: 15px;
+    margin: 10px;
+
+    white-space: nowrap;
+    /* K cho chữ xuống dong  */
+    overflow: hidden;
+    /* Chữ dài hơn cr của card thì bị ẩn chữ  */
+    text-overflow: ellipsis;
+    /* Thêm dấu chấm  */
+}
+
+.cards p {
+    font-size: 12px;
+    color: #888;
+    margin: 0 10px 15px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cards {
+    transition: 0.3s;
+}
+
+.cards:hover {
+    transform: translateY(-10px);
+}
+
