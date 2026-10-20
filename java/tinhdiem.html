@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính điểm trung bình</title>
+    <link rel="stylesheet" href="tinhdiem.css">
+    <script src="tinhdiem.js" defer></script>
+</head>
+
+<body>
+    <h1>Tính điểm trung bình học kỳ</h1>
+
+    <form action="" method="post">
+        <label for="hk1">Nhập điểm HK 1</label>
+        <input type="text" id="hk1">
+        <br>
+
+        <label for="hk2">Nhập điểm HK 2</label>
+        <input type="text" id="hk2">
+        <br>
+
+        <button type="button" onclick="checkdiem()">Tính điểm trung bình</button>
+    </form>
+
+    <p>Điểm trung bình: <span id="diemTB"></span></p>
+    <p>Xếp loại: <span id="xl"></span></p>
+</body>
+</html>
